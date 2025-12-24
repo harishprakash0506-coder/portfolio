@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harish P | Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f8;
+            color: #000;
+        }
+
+        /* HEADER */
+        header {
+            background: #1c1c1c;
+            color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 140px;
+            height: 170px;
+            object-fit: cover;
+            border: 3px solid #fff;
+            margin-bottom: 15px;
+        }
+
+        header h1 {
+            margin: 10px 0 5px;
+            font-size: 2.4rem;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 1.1rem;
+        }
+
+        header a {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 10px 18px;
+            background: #ffffff;
+            color: #1c1c1c;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+
+        header a:hover {
+            background: #e0e0e0;
+        }
+
+        /* MAIN CONTENT */
+        .content {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.12);
+        }
+
+        .card h2 {
+            border-bottom: 2px solid #000;
+            padding-bottom: 6px;
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+        }
+
+        .card ul {
+            padding-left: 20px;
+        }
+
+        .card ul li {
+            margin-bottom: 8px;
+        }
+
+        .profiles a {
+            display: block;
+            margin-bottom: 8px;
+            color: #000;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .profiles a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background: #1c1c1c;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <img src="Harish Image.png" alt="Harish P">
+    <h1>HARISH P</h1>
+    <p>Computer Science Engineering Student</p>
+
+    <a href="resume.pdf" target="_blank">View Resume</a>
+</header>
+
+<!-- MAIN CONTENT -->
+<div class="content">
+
+    <div class="cards">
+
+        <div class="card">
+            <h2>About Me</h2>
+            <p>
+                I am a Computer Science Engineering student with a strong foundation
+                in programming and problem-solving. I enjoy learning new technologies
+                and building practical projects. I am seeking an entry-level role
+                where I can grow professionally.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>Skills</h2>
+            <ul>
+                <li>C Programming – Arrays, Loops</li>
+                <li>C++ – Basic OOP Concepts</li>
+                <li>Problem Solving – LeetCode</li>
+                <li>Tools – ChatGPT, Git</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Projects</h2>
+            <p>
+                <strong>Digital Signature Generator and Verifier</strong><br>
+                Secure document signing using RSA and SHA-256.
+            </p>
+            <p>
+                <strong>Student Record Management System</strong><br>
+                Automated student data handling.
+            </p>
+        </div>
+
+        <div class="card profiles">
+            <h2>Profiles</h2>
+            <a href="https://www.linkedin.com/feed/?trk=sem-ga_campid.14650114788_asid.151761418307_crid.657403558715_kw.linkedin%20login_d.c_tid.kwd-12704335873_n.g_mt.e_geo.9181803" target="_blank">
+                LinkedIn
+            </a>
+            <a href="https://leetcode.com/u/XF0uGl302b/" target="_blank">
+                LeetCode
+            </a>
+            <a href="https://www.hackerrank.com/profile/harishp_cs24" target="_blank">
+                HackerRank
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>Contact</h2>
+            <p>Email: harishp.cs24@bitsathy.ac.in</p>
+            <p>Phone: +91 9940915347</p>
+            <p>Location: Erode, Tamil Nadu</p>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    © 2025 Harish P | Portfolio
+</footer>
+
+</body>
+</html>
